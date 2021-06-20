@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>CRUD</title>
+</head>
+<body>
+	    <div class="container m-5">
+        <div class="row">
+            <div class="col-lg-6">
+
+
+                <h4 class="mb-5 bg-success text-white">Add Employee</h4>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Employee Name</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                <div class="mb-3">
+                    <label for="rank" class="form-label">Designation</label>
+                    <input type="text" class="form-control" id="rank">
+                  </div>
+                  <div class="mb-3">
+                    <label for="mail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="mail">
+                  </div>
+                    <button class="btn btn-success" id="btn1">Create</button>
+                    <button class="btn btn-primary" id="btn3">Update</button>
+
+
+            </div>
+            <div class="col-lg-6">
+                <h4 class="mb-5 bg-info">Employee list</h4>
+				<ol id="mylist">
+				</ol>
+            </div>
+        </div>
+    </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="myscript.js"></script>
+</body>
+
+</html>
